@@ -16,5 +16,14 @@ public class E5D2Arrays {
             }
             System.out.println();
         }
+
+        //Repeat for practice:
+        for(int k=0; k<matrix.length; k++){
+
+            for(int n = 0; n<matrix[k].length; n++){
+                System.out.print(matrix[k][n] + " ");
+            }
+            System.out.println();
+        }
     }
 }

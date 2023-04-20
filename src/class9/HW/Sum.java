@@ -10,5 +10,12 @@ public class Sum {
             sum=sum+ arr[i];
         }  System.out.println(sum);
 
+        //Instructor solution (Enhanced For Loop):
+        int sum2=0;
+
+        for(int item:arr){
+            sum2=sum2+item;
+        }
+        System.out.println(sum2);
     }
 }

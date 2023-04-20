@@ -11,6 +11,15 @@ public class Largest {
                 }
             }
         System.out.println(max);
+
+        //Instructor Solution (Enhanced For Loop):
+        int largest =arr[0];
+        for(int num:arr){
+            if(num>largest) {
+                largest = num;
+            }
+        }
+        System.out.println(largest);
         }
     }
 
