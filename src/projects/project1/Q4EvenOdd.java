@@ -21,8 +21,6 @@ public class Q4EvenOdd {
                 }
             }
         }
-        System.out.println("Sum of Even Numbers: " + sumEven);
-        System.out.println("Sum of Odd Numbers: " + sumOdd);
-        System.out.println("Summ of All Numbers: " + (sumEven + sumOdd));
+        System.out.println("Sum of Even Numbers: " + sumEven + "\nSum of Odd Numbers: " + sumOdd + "\nSum of All Numbers: " + (sumEven + sumOdd));
     }
 }

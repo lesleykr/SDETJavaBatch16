@@ -15,15 +15,15 @@ public class Q5Swap {
 
         System.out.println("Swap Two Numbers in an Array:");
 
-        for (int i = 0; i < nums.length; i++) {
-            System.out.print(nums[i] + " ");
+        for (int num : nums) {
+            System.out.print(num + " ");
         }
         System.out.println();
         nums[1] = nums[1] + nums[3];
         nums[3] = nums[1] - nums[3];
         nums[1] = nums[1] - nums[3];
-        for (int i = 0; i < nums.length; i++) {
-            System.out.print(nums[i] + " ");
+        for (int num : nums) {
+            System.out.print(num + " ");
         }
     }
 }

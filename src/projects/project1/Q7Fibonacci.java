@@ -5,7 +5,7 @@ public class Q7Fibonacci {
 
         int[] fib = new int[10];
         System.out.print("The Fibonacci Sequence: ");
-        for (int i = 0; i <= fib.length-1; i++) {
+        for (int i = 0; i <= fib.length - 1; i++) {
             if (i == 0) {
                 fib[i] = 0;
             } else if (i == 1) {

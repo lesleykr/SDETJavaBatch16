@@ -14,7 +14,6 @@ public class Q1Temps {
                 low = temp;
             }
         }
-        System.out.println("High Temperature: " + high);
-        System.out.println("Low Temperature: " + low);
+        System.out.println("High Temperature: " + high + "\nLow Temperature: " + low);
     }
 }
