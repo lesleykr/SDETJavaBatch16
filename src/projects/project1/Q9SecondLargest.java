@@ -2,7 +2,7 @@ package projects.project1;
 
 public class Q9SecondLargest {
     public static void main(String[] args) {
-        int[] arr = {2, 33, 61, 7, 65, 9, 47};
+        int[] arr = {2, 33, 61, 61, 7, 65,65, 9, 47};
 
         int count = 0;
 
