@@ -1,4 +1,4 @@
-package class20;
+/*package class20;
 
 public class Parent {
     void getMarry(){
@@ -21,4 +21,4 @@ class Axel extends Parent{
     }
 }
 
-class ParenTester
+class ParenTester*/
